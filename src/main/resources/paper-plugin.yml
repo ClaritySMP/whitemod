@@ -1,0 +1,9 @@
+name: whitemod
+version: '1.0-0'
+main: org.neo.whitemod.Whitemod
+api-version: '1.21'
+
+commands:
+  whitelist:
+    description: Add a user to the Minecraft whitelist using discord bot
+    usage: /whitelist <username>

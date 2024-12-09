@@ -1,0 +1,30 @@
+# Configuration for Whitemod plugin
+
+bot-token: ""
+
+command-prefix: "/"
+
+check-permissions: true
+
+logging:
+  debug: false
+
+allowed-roles:
+  - "Admin"
+  - "Moderator"
+
+messages:
+  whitelist-success: "Successfully added %username% to the Minecraft whitelist!"
+  whitelist-failure: "Failed to add %username% to the whitelist. Please try again."
+  no-permission: "You don't have permission to use this command."
+
+guild-id: "123456789012345678"
+
+commands:
+  whitelist:
+    enabled: true
+    description: "Adds a player to the Minecraft whitelist."
+    option-name: "username"
+    option-description: "The username of the player to whitelist."
+
+whitelist-delay: 0
